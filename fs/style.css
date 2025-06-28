@@ -1,0 +1,54 @@
+body{
+	background-color: darkgray;
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+#info{
+	font-size: 35px;
+	text-align: center;
+	position: absolute;
+	left: 30%;
+	transform: translateX(-50%);
+}
+
+.label{
+	text-align: right;
+	display: inline-block;
+	width: 200px;
+}
+
+#btn{
+	position: absolute;
+	left: 80%;
+
+}
+button{
+	color: darkgray;
+	background-color: black;
+	font-size: 30px;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+
+button:hover{
+	color: black;
+	background-color: darkgray;
+}
+
+@media screen and (max-width: 1000px){
+	h1{
+		font-size: 100px;
+	}
+	#info{
+		font-size: 75px;
+	}
+	.label{
+		width: 450px;	
+	}
+	button{
+		font-size: 90px;
+	}
+}

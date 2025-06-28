@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Pico Webserver</title>
+</head>
+<body>
+	<h1>Pico W Webserver</h1>
+<div id="info">
+	<div class="label">Temperature:</div> <!--#temp-->C<br>
+	<div class="label">Voltage:</div> <!--#voltage-->V<br>
+	<div class="label">Led:</div> <span id="ledValue"><!--#led--></span>
+
+	<div id="btn">
+		<button onclick="updateButtonStatus(this)">Toggle</button>
+	</div>
+</div>
+</body>
+</html>
